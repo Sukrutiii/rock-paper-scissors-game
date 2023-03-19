@@ -1,0 +1,92 @@
+
+html,body {
+    background: #8CC461;
+}
+
+.star1 {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 860px;
+}
+
+.star2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.star3 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 810px;
+}
+
+.star4 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 570px;
+}
+
+.star5 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 620px;
+}
+
+.star6 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 700px;
+}
+
+.star7 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 920px;
+}
+
+.star8 {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 600px;
+}
+
+.cup {
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 650px;
+}
+
+.para {
+    position: absolute;
+    color: white;
+    margin-top: 450px;
+}
+
+.line1 {
+    font-size: 80px;
+    margin-left: 550px;
+}
+
+.line2 {
+    font-size: 39px;
+    margin-left: 549px;
+    margin-top: 7px;
+}
+
+.play button{
+    background: white;
+    position: absolute;
+    border-radius: 10px;
+    width: 174px;
+    height: 44px;
+    margin-top: 630px;
+    margin-left: 660px;
+    border: 0px;
+}
+
+.play a {
+    text-decoration: none;
+    font-family: "Roboto";
+    text-transform: bold;
+}

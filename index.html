@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont1">
+        <div class="name">
+           <p>ROCK</p>
+           <p>PAPER</p>
+           <p>SCISSORS</p> 
+        </div>
+        <div class="score">
+            <div class="s1">
+                <p>COMPUTER</p>
+                <p>SCORE</p>
+                <p class="Cscore"></p>
+            </div>
+            <div class="s2">
+                <p>YOUR</p>
+                <p>SCORE</p>
+                <p class="Yscore"></p>
+            </div>
+        </div>
+    </div>
+    <div class="cont2">
+        <div class="components"> 
+            <div class="rock_scissors">
+                <div class="rock">
+                    <img src="./images/rock.png">
+                </div>
+                <div class="scissors">
+                    <img src="./images/scissors.png">
+                </div>
+            </div>
+            <div class="paper">
+                <img src="./images/paper.png">
+            </div>
+        </div>
+        <div class="pop">
+            <div class="rules__img">
+            <img src="./images/rules.png">
+            <div class="cross" onclick="hideRules()"><img src="./images/cross.png"></div>
+        </div>
+            <button class="rules" onclick="showRules()">Rules</button>
+        </div>
+    </div>
+    
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>

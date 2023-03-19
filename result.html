@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="result.css" />
+</head>
+
+<body>
+    <div class="cont1">
+        <div class="name">
+            <p>ROCK</p>
+            <p>PAPER</p>
+            <p>SCISSORS</p>
+        </div>
+        <div class="score">
+            <div class="s1">
+                <p>COMPUTER</p>
+                <p>SCORE</p>
+                <p class="Cscore">0</p>
+            </div>
+            <div class="s2">
+                <p>YOUR</p>
+                <p>SCORE</p>
+                <p class="Yscore">0</p>
+            </div>
+        </div>
+    </div>
+    <div class="cont2">
+        <div class="components">
+            <div class="playerResult">
+            </div>
+            <div class="result">
+                <p class="result_text">You Win</p>
+                <p class="result_winner">Again PC</p>
+                <button class="play_again" onclick="playAgain()">Play Again</button>
+            </div>
+            <div class="pcResult">
+            </div>
+        </div>
+        <div class="pop">
+            <div class="rules__img">
+                <img src="./images/rules.png">
+                <div class="cross" onclick="hideRules()"><img src="./images/cross.png"></div>
+            </div>
+            <button class="rules" onclick="showRules()">Rules</button>
+            <button class="play" onclick="next()">Next</button>
+        </div>
+    </div>
+    </div>
+    <script src="result.js" type="text/javascript"></script>
+</body>
+
+</html>

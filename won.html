@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="star_style.css">
+</head>
+<body>
+    <div class="cont3">
+    <div class="stars">
+        <div class="star1"><img src="./images/star1.png"></div>
+        <div class="star2"><img src="./images/star2.png"></div>
+        <div class="star3"><img src="./images/star2.png"></div>
+        <div class="star4"><img src="./images/star3.png"></div>
+        <div class="cup"><img src="./images/cup.png"></div>
+        <div class="star5"><img src="./images/star4.png"></div>
+        <div class="star6"><img src="./images/star4.png"></div>
+        <div class="star7"><img src="./images/star4.png"></div>
+        <div class="star8"><img src="./images/star4.png"></div>
+    </div>
+    </div>
+    <div class="para">
+        <b class="line1">HURRAY!!</b>
+        <p class="line2">YOU WON THE GAME</p>
+    </div>
+    <div class="play">
+        <button> <a href="./index.html"> PLAY AGAIN</a></button>
+    </div>
+
+    <script>
+        function onPlayAgain(){
+            sessionStorage.setItem('pc',0);
+            sessionStorage.setItem('player',0);
+            window.location.href('index.html');
+        }
+    </script>
+</body>
+</html>

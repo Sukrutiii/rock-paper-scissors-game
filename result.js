@@ -106,7 +106,6 @@ function playAgain(){
 function next(){
   window.location.href = 'won.html';
 }
-
 winner()
 
 
